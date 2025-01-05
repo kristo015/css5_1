@@ -8,3 +8,193 @@ body {
     font-family: Inter;
     background-color: #07081A;
 }
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.FullWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
+.container {
+    max-width: 1040px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+/* headerrrr */
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 14px 0;
+    border-bottom: 1px solid #261C51
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+nav ul {
+    display: flex;
+    gap: 24px;
+
+}
+
+.nav_list {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.nav_list:hover {
+    color: #b968de;
+}
+
+.user {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #9100d3;
+    padding: 4px;
+}
+
+/* main container */
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+    align-items: center;
+}
+
+.hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+
+.hero p {
+    color: #C0C0C0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.hero button {
+    outline: none;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background: #9100D3;
+    width: 186px;
+    color: #fff;
+}
+
+.hero div {
+    display: flex;
+    justify-content: center;
+}
+
+.company {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.company_box {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.company_box span {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+}
+
+.blogcards {
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+.blogcards_box {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 16px 24px;
+    border: 1px solid #261C51;
+    border-radius: 8px;
+    gap: 16px;
+}
+
+.for_gap {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
+/*  foooooooooooooooooterrrrrrrrrrrrr*/
+
+footer {
+    padding: 20px 0;
+    border-top: 1px solid #261C51;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.footer_link {
+    display: flex;
+    gap: 24px;
+}
